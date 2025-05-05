@@ -1,23 +1,22 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Merienda";
+  font-family: "Roboto", serif;
 }
-
 
 /* #region */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* #endregion */
-
-
 
 /* #region basics */
 
 body {
   font-family: "Roboto", serif;
+  font-family: "Merienda";
 }
 
 a {
@@ -67,14 +66,23 @@ button {
   display: flex;
 }
 
-ul, li, a, p, h1, h2, h3, h4, h5, h6 {
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", serif;
+  font-family: "Merienda";
 }
 
 /* #endregion basics */
-
-
 
 /* #region Grid-System */
 
@@ -125,8 +133,7 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
 .col-lg-9,
 .col-lg-10,
 .col-lg-11,
-.col-lg-12
-.col-xl-1,
+.col-lg-12 .col-xl-1,
 .col-xl-2,
 .col-xl-3,
 .col-xl-4,
@@ -213,13 +220,10 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
 
 /* #endregion Grid-System */
 
-
-
 /* #region Col-Responsive */
 
 /*  col-sm  */
 @media (min-width: 576px) {
-
   .col-sm-auto {
     width: auto;
   }
@@ -271,12 +275,10 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
   .col-sm-12 {
     width: 100%;
   }
-
 }
 
 /*  col-md  */
 @media (min-width: 768px) {
-
   .col-md-auto {
     width: auto;
   }
@@ -328,12 +330,10 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
   .col-md-12 {
     width: 100%;
   }
-
 }
 
 /*  col-lg  */
 @media (min-width: 992px) {
-
   .col-lg-auto {
     width: auto;
   }
@@ -385,12 +385,10 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
   .col-lg-12 {
     width: 100%;
   }
-  
 }
 
 /*  col-xl  */
 @media (min-width: 1200px) {
-
   .col-xl-auto {
     width: auto;
   }
@@ -442,12 +440,10 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
   .col-xl-12 {
     width: 100%;
   }
-  
 }
 
 /*  col-xxl  */
 @media (min-width: 1400px) {
-  
   .col-xxl-auto {
     width: auto;
   }
@@ -499,7 +495,6 @@ ul, li, a, p, h1, h2, h3, h4, h5, h6 {
   .col-xxl-12 {
     width: 100%;
   }
-
 }
 
 /* #endregion Col-Responsive */
